@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+##############################################################
+	Author: Othon Oliveira Lima
+	Date: 11/26/2021
+	Purpose:  CIS-1280 Final Portfolio -  Lima Family Dentistry > Location
+	Dependencies: css/style.css
+##############################################################
+ -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Location - Lima Family Dentistry</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Company Logo"
+                                                               id="companyLogo"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+
+    <div class="pageTitleBox">
+        <h1 class="pageTitle"> Location </h1>
+    </div>
+
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVhbb_RmFvJnXWNX-sDwyFdBc9mQvD3lw&callback=initMap" async defer></script>
+
+    <p>
+        <br>Avenida Duque de Caxias 1202 - Macapa, AP 68900-071 Brazil
+    </p>
+
+    <h2>Our space</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 pictureGrid imageClick">
+                <img src="images/picInside2.jpg" alt="Inside Picture 2" class="clinicPic" onclick="window.open('images/picInside2.jpg', '_blank');">
+            </div>
+            <div class="col-sm-6 pictureGrid imageClick">
+                <img src="images/picInside3.jpg" alt="Inside Picture 3" class="clinicPic" onclick="window.open('images/picInside3.jpg', '_blank');">
+            </div>
+            <div class="col-sm-4 pictureGrid imageClick">
+                <img src="images/picInside4.jpg" alt="Inside Picture 4" class="clinicPic" onclick="window.open('images/picInside4.jpg', '_blank');">
+            </div>
+            <div class="col-sm-4 pictureGrid imageClick">
+                <img src="images/picInside1.jpg" alt="Inside Picture 1" class="clinicPic" onclick="window.open('images/picInside1.jpg', '_blank');">
+            </div>
+            <div class="col-sm-4 pictureGrid imageClick">
+                <img src="images/picInside5.jpg" alt="Inside Picture 5" class="clinicPic" onclick="window.open('images/picInside5.jpg', '_blank');">
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

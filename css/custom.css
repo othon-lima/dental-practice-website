@@ -1,0 +1,457 @@
+/* Space out content a bit */
+body
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Custom page footer */
+.footer
+{
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px)
+{
+    .container
+    {
+        max-width: 760px;
+    }
+}
+.container-narrow > hr
+{
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron
+{
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn
+{
+    padding: 10px 15px;
+    font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing
+{
+    margin: 40px 0;
+}
+.marketing p + h4
+{
+    margin-top: 28px;
+}
+
+.jumbotron > h1
+{
+    font-size: 50px;
+    color: #3e4030;
+}
+
+
+.row
+{
+    text-align: center;
+}
+
+.borderedRound
+{
+    margin: 15px 25px;
+    padding: 15px;
+    border: 2px solid #B97550;
+    border-radius: 100%;
+}
+
+#map
+{
+    height: 320px;
+    width: 100%;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px)
+{
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer
+    {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header
+    {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron
+    {
+        border-bottom: 0;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .jumbotron > h1
+    {
+        font-size: 40px;
+        padding-left: 14px;
+    }
+
+    .jumbotron > p
+    {
+        font-size: 17px;
+        padding-left: 14px;
+        font-weight: normal;
+    }
+
+    .borderedRound
+    {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .jumbotron
+    {
+        padding: 10px 10px;
+    }
+
+    .jumbotron > h1
+    {
+        font-size: 32px;
+        padding-left: 14px;
+    }
+
+    .jumbotronText
+    {
+        visibility: hidden;
+    }
+
+    .jumbotron .btn
+    {
+        font-size: 15px;
+    }
+
+    #map
+    {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+
+
+#companyLogo
+{
+    height: 55px;
+    margin-top: -18px;
+    margin-left: -20px;
+}
+
+.navbar
+{
+    background-color: white;
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    color: black;
+    background-color: #fbc4ab;
+    border-radius: 10%;
+}
+
+.nav>li>a
+{
+    padding: 8px 13px;
+    font-size: medium;
+}
+
+#navbar > ul
+{
+    margin-top: 10px;
+}
+
+.jumbotron
+{
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron > p
+{
+    color: black;
+}
+
+.navbar-collapse
+{
+    padding: 0;
+}
+
+.container-fluid
+{
+    padding-right: 0;
+}
+
+.nav
+{
+    padding-left: 7px;
+}
+
+.infoBox
+{
+    background-color: #fbc4ab;
+    border-radius: 5%;
+    padding: 15px 15px;
+}
+
+.infoBoxCenter
+{
+    padding: 15px 15px;
+}
+
+.infoBoxes
+{
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+}
+
+.row img
+{
+    height: 70px;
+    text-align: center;
+}
+
+.welcomeMessage
+{
+    font-size: medium;
+
+}
+
+.bioImageText
+{
+    width: 100%;
+    height: 445px;
+}
+
+.bioImageText > h2
+{
+    color: #565A49;
+}
+
+.roundedImage
+{
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    float: left;
+}
+
+.pictureGrid
+{
+    height: 225px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px)
+{
+    .roundedImage
+    {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .bioImageText
+    {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .bioImageText
+    {
+        margin-bottom: 115px;
+    }
+
+    .pictureGrid
+    {
+        height: 175px;
+    }
+}
+
+.bio
+{
+    padding-bottom: 50px;
+    top: 50%;
+    font-size: medium;
+}
+
+.pageTitle
+{
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    color: #A5A58D;
+    border-radius: 5%;
+
+}
+
+.pageTitleBox
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.servicesBox
+{
+    font-size: medium;
+    text-align: center;
+}
+
+.borderedRound > img
+{
+    padding: 5px 5px;
+}
+
+.clinicPic
+{
+    height: 100% !important;
+}
+
+.imageClick
+{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imageClick:hover
+{
+    opacity: 0.7;
+}
+
+table
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: medium;
+}
+
+.contactIcon
+{
+    width: 60px;
+    max-height: 80px;
+    height: auto;
+    float: left;
+    padding-top: 15px;
+}
+
+.iconAndInfo
+{
+    height: 110px;
+    font-size: medium;
+}
+
+.contentContact
+{
+    padding-left: 100px;
+    font-size: medium;
+}
+
+/*https://css-tricks.com/responsive-data-tables/*/
+@media (max-width: 550px)
+{
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before { content: "Monday"; }
+    td:nth-of-type(2):before { content: "Tuesday"; }
+    td:nth-of-type(3):before { content: "Wednesday"; }
+    td:nth-of-type(4):before { content: "Thursday"; }
+    td:nth-of-type(5):before { content: "Friday"; }
+    td:nth-of-type(6):before { content: "Saturday"; }
+    td:nth-of-type(7):before { content: "Sunday"; }
+}

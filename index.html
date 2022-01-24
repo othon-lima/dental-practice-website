@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+##############################################################
+	Author: Othon Oliveira Lima
+	Date: 11/26/2021
+	Purpose:  CIS-1280 Final Portfolio -  Lima Family Dentistry > Doctors
+	Dependencies: css/style.css
+	Note: Narrow jumbotron bootstrap example was used as starting code
+	https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/
+	code used from w3schools.com
+##############################################################
+ -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Othon Lima">
+    <title>Home - Lima Family Dentistry</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Company Logo"
+                                                               id="companyLogo"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+
+    <div class="jumbotron">
+        <h1>Lima Family <br>Dentistry</h1>
+        <p class="lead jumbotronText">Family owned practice with<br> over 30 years of experience</p>
+        <p><a class="btn btn-lg btn-success" href="contact.html" role="button">Schedule a visit</a></p>
+    </div>
+
+    <div class="text-justify welcomeMessage">
+        <h2>WELCOME</h2>
+        <p>With a focus on providing quality care using the latest technology and methods,
+            and a commitment to helping our patients achieve their healthiest and best smile,
+            we are known for taking pride in our quality dental care! No matter what service you need,
+            we have the expertise and the technology to deliver top-notch results.</p>
+
+
+        <p>You'll find lots of great information on our <span><a
+                href="https://www.instagram.com/dras_lima_odontologia/?hl=en" target="_blank">
+            social media</a></span> Make sure to follow us there! Give us a call if you have any questions or to
+            schedule
+            a meet and greet with Vilmar or Beatriz.</p>
+    </div>
+
+    <div class="container">
+        <div class="row infoBoxes">
+            <div class="col-sm-4 infoBox">
+                <img src="images/iconMission.png" alt="Mission Icon">
+                <h3 class="text-center">Experienced<br>Professionals</h3>
+                <p class="text-justify">
+                    Vilmar is an experienced dentist with over 30 years of experience. Her experience combined with
+                    Beatriz's technology driven ideas make the perfect team.
+                </p>
+            </div>
+            <div class="col-sm-4 infoBoxCenter">
+                <img src="images/iconHeart.png" alt="Heart Icon">
+                <h3 class="text-center">Family<br>Values</h3>
+                <p class="text-justify">
+                    Ethics, transparency, humanity, trust, solidarity, leadership by example, patient focus are a few
+                    values that are shared within the team, partners and patients.
+                </p>
+            </div>
+            <div class="col-sm-4 infoBox">
+                <img src="images/iconCheck.png" alt="Heart Icon">
+                <h3 class="text-center">Customer<br>First</h3>
+                <p class="text-justify">
+                    We set very high standards. Our goal is to provide our clients a worry free experience providing the
+                    ideal treatment with transparency and professionalism.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Designed by Othon Lima, 2021</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
